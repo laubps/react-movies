@@ -1,0 +1,32 @@
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  background-color: #1a1a2e;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid #e50914;
+}
+
+.app-title {
+  font-size: 1.8rem;
+  color: #e50914;
+  letter-spacing: 1px;
+}
+
+.app-main {
+  flex: 1;
+  padding: 2rem;
+}
+
+.app-footer {
+  background-color: #1a1a2e;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: #aaa;
+  border-top: 1px solid #333;
+  line-height: 1.8;
+}
